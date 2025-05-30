@@ -20,8 +20,11 @@ A modern web app for managing daily updates and analytics, built with React, Exp
 
 1.Once you downloaded the Repo to your local computer change directory to backend:
 cd backend
+
 npm install
+
 npx prisma generate
+
 npm run start
 
 2. add to .env file:
@@ -30,6 +33,8 @@ DATABASE_URL="mysql://root:assign_2025@localhost:3306/myassignapp"
 2. open second terminal (to start frontend):
 
 npm install
+
 npm run start
+
 To login the app use: email: admin@example.com, password:test
 
